@@ -1,5 +1,10 @@
 ML Algorithms: One SD (s)
 
+The obvious questions to ask when facing a wide variety of machine learning algorithms, is “which algorithm is better for a specific task, and which one should I use?” 
+Answering these questions vary depending on several factors, including: (1) The size, quality, and nature of data; (2) The available computational time; (3) The urgency of the task; and (4) What you want to do with the data.
+
+In this project I tried to display and briefly explain the main algorithms (though not all of them) that are available for different tasks as simply as possible. 
+
 1.	Regression Algorithms:
 •	Ordinary Least Squares Regression (OLSR)- a method in Linear Regression for estimating the unknown parameters by creating a model which will minimize the sum of the squared errors between the observed data and the predicted one (observed values and estimated values).
 •	Linear Regression- used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable.
@@ -100,10 +105,6 @@ ML Algorithms: One SD (s)
 •	Light GBM- a gradient boosting framework that uses tree based learning algorithms.
 •	CatBoost- does not require extensive data training like other ML models, and can work on a variety of data formats; not undermining how robust it can be. Catboost can automatically deal with categorical variables without showing the type conversion error, which helps you to focus on tuning your model better rather than sorting out trivial errors.
 •	Genetic algorithms – the idea is that survival of an organism is affected by rule "the strongest species that survives". It repeatedly modifies a “population” of individual solutions. At each step, it selects individuals at random from the current population to be “parents” and uses them to produce the “children” for the next generation. Over several generations, the population "evolves" toward an optimal solution. You can use it to solve a variety of optimization problems that are not well suited for standard optimization algorithms. For example problems in which the objective function is discontinuous, no differentiable, stochastic, or highly nonlinear. It can also address problems of mixed integer programming, where some components are restricted to be integer-valued.
-•	 Singular Value Decomposition- SVD is a factorization of a real complex matrix. For a given m * n matrix M, there exists a decomposition such that M = USV, where U and V are unitary matrices and S is a diagonal matrix. PCA is actually a simple application of SVD. In computer vision, the 1st face recognition algorithms used PCA and SVD in order to represent faces as a linear combination of “eigenfaces”, do dimensionality reduction, and then match faces to identities via simple methods
-•	Recurrent Neural Network (RNN)-a class of artificial neural network where connections between nodes form a directed graph along a sequence. This allows it to exhibit temporal dynamic behavior for a time sequence.
-•	transfer learning- the reuse of a pre-trained model on a new problem
-
-A typical question asked by a beginner, when facing a wide variety of machine learning algorithms, is “which algorithm should I use?” The answer to the question varies depending on many factors, including: (1) The size, quality, and nature of data; (2) The available computational time; (3) The urgency of the task; and (4) What you want to do with the data.
-
-Even an experienced data scientist cannot tell which algorithm will perform the best before trying different algorithms. 
+•	Singular Value Decomposition (SVD)- a factorization of a real complex matrix. For a given m * n matrix M, there exists a decomposition such that M = USV, where U and V are unitary matrices and S is a diagonal matrix. PCA is actually a simple application of SVD. In computer vision (CI), the first face recognition algorithms used PCA and SVD in order to represent faces as a linear combination of “Eigenfaces”, do dimensionality reduction, and then match faces to identities via simple methods.
+•	Recurrent Neural Network (RNN) - a class of artificial neural network where connections between nodes form a directed graph along a sequence. This allows it to exhibit temporal dynamic behavior for a time sequence.
+•	Transfer Learning- the reuse of a pre-trained model on a new problem.
